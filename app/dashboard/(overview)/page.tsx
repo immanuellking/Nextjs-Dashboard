@@ -4,6 +4,11 @@ import { lusitana } from '@/app/ui/fonts';
 import { Suspense } from 'react';
 import { CardsSkeleton, RevenueChartSkeleton } from '@/app/ui/skeletons';
 import CardsWrapper from '../cards';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Dashboard',
+};
 
 export default function Page() {
   return (
